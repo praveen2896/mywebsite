@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="assets/css/materialize.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body class="#546e7a blue-grey section scrollspy">
+  <script src="assets/js/materialize.min.js"></script>
+  <script type="text/javascript" src="assets\js\scripts.js"></script>
+  <!-- navigation section-->
+  <nav>
+    <div class="nav-wrapper #9c27b0 darken purple">
+
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <a href="#!" class="brand-logo"><span class="logo">Biking ride</span></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#services">Services</a></li>
+        <li><a id="r" href="#ride">Ride</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <!--<li><a href="#">Blog</a></li>-->
+      </ul>
+      <ul class="side-nav " id="mobile-demo">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#ride">Ride</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <!--<li><a href="#">Blog</a></li>-->
+      </ul>
+    </div>
+  </nav>
+
+  <!-- carousel inside parallax -->
+  <div class="parallax-container ">
+    <div class="carousel">
+      <a class="carousel-item" href="#one!"><img id="img1"src="assets\images\image 1.jpg"></a>
+      <a class="carousel-item" href="#two!"><img src="assets\images\image3.jpg"></a>
+      <a class="carousel-item" href="#three!"><img src="assets\images\image4.jpg"></a>
+      <a class="carousel-item" href="#four!"><img src="assets\images\image5.jpg"></a>
+      <a class="carousel-item" href="#five!"><img src="assets\images\images2.jpg"></a>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col l10 offser-l1">
+          <div class="white-text center-align">
+            <h5 id="text1" class="thin-text  valign-wrapper">RIDE HARD OR STAY HOME</h5>
+          </div>
+        </div>
+        <div class="col l10 offser-l1">
+          <div class="white-text center-align">
+            <a id="button1" class="waves-effect btn-large hoverable red accent-2">GO FOR A RIDE</a>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="parallax"><img src="assets\images\topimage.jpg"></div>
+  </div>
+  <div class="divider">
+
+  </div>
+  <!-- services-->
+  <div id="services" class="container2 section scrollspy">
+    <div class="row center">
+      <h2>Services</h2>
+    </div>
+    <div class="row">
+      <div class="col s6 l6 m6">
+        <div class="card medium light-blue accent-4 z-depth-5 hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="responsive-img activator" src="assets/images/topimage.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Offer Rides<i class="material-icons right">more_vert</i></span>
+            <p href="#">Click here</p>
+          </div>
+          <div class="card-reveal blue">
+            <span class="card-title grey-text text-darken-3">Card Title<i class="material-icons right">close</i></span>
+            <p>Welcome to the reformatted British Cycling intermediate and advanced 12-week training plans. If you’ve been following the foundation plan these plans are an ideal progression but they are also suitable for riders who, up until now, have been
+              devising their own training.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s6 l6 m6">
+        <div class="card medium light-blue accent-4 z-depth-5 hoverable">
+          <div class="card-content white-text">
+            <h3 class="center-align "><i class="fa fa-users fa-1x" aria-hidden="true"></i></h3>
+          </div>
+          <div class="divider"></div>
+          <span class="card-title">Community For Riders</span>
+          <p>Cycling Without Age is built on the concept that we can create a greater sense of community through the shared experience of a bike ride. During a ride, seniors and their “pilots” can share stories and build relationships. This is especially
+            important for seniors in the Tenderloin, where breaking social isolation is necessary. Through this program, something as small as a bike ride can remind isolated seniors of their youth and build connections with their neighbors</p>
+          <!--    <div class="card-action">
+          <a href="#">Find out more</a>
+        </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Ride -->
+  <div id="ride" class="about_container section scrollspy">
+    <div class="row center">
+      <div class="responsive-image">
+        <img src="assets/images/images2.jpg" alt="">
+        <a id="button2" class="waves-effect btn-large hoverable red accent-2 btn modal-trigger" href="#modal1">Click here To Ride</a>
+      </div>
+    </div>
+
+  </div>
+  <!-- Modal -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Riding Details</h4>
+      <div>
+        <table class="responsive-table  highlight center">
+          <thead>
+            <tr>
+              <th>Rider Name</th>
+              <th>source</th>
+              <th>Destination</th>
+              <th>Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Sam</td>
+              <td>Delhi</td>
+              <td>Ladakh</td>
+              <td>21-08-2017</td>
+            </tr>
+            <tr>
+              <td>Sam</td>
+              <td>Delhi</td>
+              <td>Ladakh</td>
+              <td>21-08-2017</td>
+            </tr>
+            <tr>
+              <td>Sam</td>
+              <td>Delhi</td>
+              <td>Ladakh</td>
+              <td>21-08-2017</td>
+            </tr>
+            <tr>
+              <td>Sam</td>
+              <td>Delhi</td>
+              <td>Ladakh</td>
+              <td>21-08-2017</td>
+            </tr>
+            <tr>
+              <td>Sam</td>
+              <td>Delhi</td>
+              <td>Ladakh</td>
+              <td>21-08-2017</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" id="button3" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+
+
+  </div>
+  <!-- About -->
+  <div id="about" class="about_container section scrollspy">
+    <div class="row">
+      <div class="col l12  m12 s12 ">
+        <div class="card small #82b1ff blue accent-3 hoverable z-depth-5">
+          <span class="card-title white-text "><p class="center-align">About Us</p></span>
+          <p id="about_content">Hi,</p>
+          <p id="about_content">&nbsp&nbsp&nbspWe are trying to increase the experience of Riding to various Places with lots of excitements.More number of people are Ready to Ride various places in various time , But Individual person thinks about Travelling with Group of
+            People . so we are trying to form a community for Riding . It also help us to improve the relationship between person from various places &amp various atmosphere . we hope people who really ready to ride are keep enjoying and Building a good
+            community</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Contact-->
+  <div id="contact" class="contact_content section scrollspy">
+    <div class="row">
+      <div class="col l8 s12 m12 offset-l2">
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="first_name" type="text" class="validate">
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Last Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="comments" type="text" class="validate">
+                <label>Tell me about your upcoming rides</label>
+              </div>
+            </div>
+            <button class="btn waves-effect waves-light " type="submit" name="action">Submit
+      <i class="material-icons right">send</i>
+    </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--footer-->
+  <footer class="page-footer #bdbdbd grey darken-1  ">
+    <div class="foot">
+      <div class="row">
+        <div class="col l6 m12 s12">
+          <h2 grey-text>Biking Rides</h2>
+          <ul style="margin:20px;">
+            <li class="white-text"><span style=" font-family: cursive;">Find ride</span></li>
+            <li class="white-text"><span style=" font-family: cursive;">Offer ride</span></li>
+            <li class="white-text"><span style=" font-family: cursive;">Join Community</span></li>
+            <li class="white-text"><span style=" font-family: cursive;">Keep Riding</span></li>
+          </ul>
+        </div>
+        <div class="col l6 m12 s10">
+          <h2>Links</h2>
+          <ul style="margin:20px;">
+            <li><a href="#services" class="white-text"><span style=" font-family: cursive;">Services</span></li>
+            <li><a href="#about" class="white-text"><span style=" font-family: cursive;">About</span></li>
+            <li><a id="r" href="#ride" class="white-text"><span style=" font-family: cursive;">Ride</span></li>
+            <li><a href="#contact" class="white-text"><span style=" font-family: cursive;">Contact</span></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+<div class="footer-copyright blue-grey darken-2">
+  <div class="contain">
+    <p id="footer_para">&copy;2017 copyright Biking Rides, All rights Reserved</p>
+    <!--  <a id="privacy" href="#" class="grey-text text-lighten-2 right">Privacy Policy</a>
+              <-->
+        </div>
+      </div>
+  </footer>
+  </div>
+</body>
+
+</html>

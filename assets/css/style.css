@@ -1,0 +1,55 @@
+body{
+  min-height: 300vh;
+  background-color: #546e7a blue-grey ;
+}
+
+.logo{
+  padding-left: 20px;
+}
+ #text1{
+  text-decoration-color:brown;
+  font-family: fantasy;
+  font-weight: 300;
+  background: rgba(96,125,130,.4);
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 5px;
+ }
+ .carousel .carousel-item {
+ width:300px !important;}
+ .container
+ {
+       margin-top: -42px;
+ }
+#button1{
+  margin-left: 100px;
+}
+ .container2{ background-color: #546e7a blue-grey ;
+ }
+ p{
+   font-family: cursive;
+ }
+ @media only screen and (max-width:1092px) {
+    body {
+          min-width: 1000px;
+      }
+ }
+#about_content{
+  font-family: monospace ;
+  margin: 20px;
+  font-size: 20px;
+}
+ .abt{
+   font-weight: 300;
+
+ }
+ #footer_para{
+   margin-left: 60px;
+ }
+ #button2{
+   margin-top: -550px;
+   margin-left: 500px;
+ }
+ .foot{
+   margin-left:  30px;
+ }
